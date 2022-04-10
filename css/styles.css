@@ -1,11 +1,99 @@
+
+/*Цвет текста основной #212121*/
+/*Цвет текста вторичный #757575*/
+/*Цвет фона героя и футера #2F303A*/
+/*Цвет фона основной #FFFFFF*/
+/*Цвет фона вторичный #F5F4FA*/
+body {
+    font-family: roboto;
+    font-weight: 700;
+    color: #212121;
+    background-color: #FFFFFF;
+    text-decoration: none
+}
+footer {
+    background-color: #2F303A;
+    font-weight: 400;
+    text-decoration: none;
+}
+h1 {
+    font-family: roboto;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.hero .button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.filter .button:hover,
+.filter .button:focus,
+.filter .button:active
+ {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+.site-contacts {
+    font-weight: 500;
+    color: #757575;
+    text-decoration: none;
+}
+.site-nav .link 
+{
+    color: #212121;
+    text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus
+.site-nav .link:active 
+{
+    color: #2196F3;
+}
+.proj-name{
+font-weight: 700;
+color: #212121;
+}
+.link {
+    text-decoration: none;
+}
+.foot-contacts {
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+
+}
+.adress {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.text {
+    color: #757575 ;
+    font-weight: 400 ;
+    line-height: 1.7;
+
+}
+.hero {
+    background-color: #2F303A;
+    font-weight: 900;
+    color: #FFFFFF;
+}
 .logo {
-  
+  font-family: raleway;
+  font-weight: 700;
+  color: #2196F3;
+  text-decoration: none
+}
+span {
+color: #212121;
+}
+span.secondary {
+    color: #FFFFFF;
 }
 .button {
-   color: #ffffff;
-   background-color: #2196F3;
+   color: #212121;
+   background-color: #F5F4FA;
+   cursor: pointer;
+   
  
-}
+
 .button.primary {
 
 }
