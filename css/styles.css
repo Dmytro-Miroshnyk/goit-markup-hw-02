@@ -1,102 +1,145 @@
-
 /*Цвет текста основной #212121*/
 /*Цвет текста вторичный #757575*/
 /*Цвет фона героя и футера #2F303A*/
 /*Цвет фона основной #FFFFFF*/
 /*Цвет фона вторичный #F5F4FA*/
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #757575;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --hero-background-color: #2f303a;
+}
 body {
-    font-family: roboto;
-    font-weight: 700;
-    color: #212121;
-    background-color: #FFFFFF;
-    text-decoration: none
+  font-family: roboto;
+  font-weight: 700;
+  color: var(--main-text-color);
+  background-color: var(--main-background-color);
+  text-decoration: none;
 }
-footer {
-    background-color: #2F303A;
-    font-weight: 400;
-    text-decoration: none;
+.menu {
+  font-weight: 500;
 }
-h1 {
-    font-family: roboto;
-    font-weight: 900;
-    color: #FFFFFF;
+.footer {
+  background-color: var(--hero-background-color);
+  font-weight: 400;
+  text-decoration: none;
+}
+.hero-title {
+  font-family: roboto;
+  font-weight: 900;
+  color: #ffffff;
+}
+.advantage {
+  line-height: 1.2;
+}
+.section {
+}
+.section-title {
+  text-align: center;
+  line-height: 1.2;
 }
 .hero .button {
-    background-color: #2196F3;
-    color: #FFFFFF;
+  
 }
 .filter .button:hover,
 .filter .button:focus,
-.filter .button:active
- {
-    color: #FFFFFF;
-    background-color: #2196F3;
+.filter .button:active {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .site-contacts {
-    font-weight: 500;
-    color: #757575;
-    text-decoration: none;
+  font-weight: 500;
+  color: #757575;
+  text-decoration: none;
+  line-height: 1.1;
 }
-.site-nav .link 
-{
-    color: #212121;
-    text-decoration: none;
+.site-nav .link {
+  color: var(--main-text-color);
+  text-decoration: none;
+  line-height: 1.1;
 }
 .site-nav .link:hover,
-.site-nav .link:focus
-.site-nav .link:active 
-{
-    color: #2196F3;
+.site-nav .link:focus,
+.site-contacts:hover,
+.site-contacts:focus {
+  color: #2196f3;
 }
-.proj-name{
-font-weight: 700;
-color: #212121;
+.site-nav .link:active {
+  color: #2196f3;
+}
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+}
+.proj-name {
+  font-weight: 700;
+  color: var(--main-text-color);
 }
 .link {
-    text-decoration: none;
+  color: var(--main-text-color);
+  text-decoration: none;
 }
 .foot-contacts {
-color: rgba(255, 255, 255, 0.6);
-text-decoration: none;
-
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  line-height: 1.7;
 }
 .adress {
-    color: #FFFFFF;
-    text-decoration: none;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 1.7;
 }
 .text {
-    color: #757575 ;
-    font-weight: 400 ;
-    line-height: 1.7;
-
+  color: #757575;
+  font-weight: 400;
+  line-height: 1.7;
+}
+.text-team {
+  color: #757575;
+  font-weight: 400;
+  line-height: 1.2;
 }
 .hero {
-    background-color: #2F303A;
-    font-weight: 900;
-    color: #FFFFFF;
+  background-color: #2f303a;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 1.4;
+}
+.hero-button {
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.9;
+  background-color: #2196f3;
+  color: #ffffff;
 }
 .logo {
   font-family: raleway;
   font-weight: 700;
-  color: #2196F3;
-  text-decoration: none
+  color: #2196f3;
+  text-decoration: none;
+  line-height: 1.2;
 }
 span {
-color: #212121;
+  color: var(--main-text-color);
 }
 span.secondary {
-    color: #FFFFFF;
+  color: #ffffff;
+}
+.list {
+  list-style-type: none;
 }
 .button {
-   color: #212121;
-   background-color: #F5F4FA;
-   cursor: pointer;
-   
- 
-
-.button.primary {
-
+  color: var(--main-text-color);
+  background-color: #f5f4fa;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.6;
 }
-.button.secondary {
-
+.team {
+  font-weight: 500;
+  line-height: 1.2;
 }
