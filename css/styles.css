@@ -125,10 +125,13 @@ body {
   font-weight: 400;
   text-decoration: none;
 }
-.adress {
+.place {
   color: var(--main-background-color);
   text-decoration: none;
   line-height: 1.7;
+}
+.address {
+  font-style: normal;
 }
 .foot-contacts {
   color: rgba(255, 255, 255, 0.6);
